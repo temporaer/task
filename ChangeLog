@@ -1,5 +1,9 @@
 ------ current release ---------------------------
 
+2.3.1 ()
+
+------ old releases ------------------------------
+
 2.3.0 (2014-01-15) c4eb46507031b7dee839dcb932bb2a22b2f0d3a2
 
 Features
@@ -105,8 +109,6 @@ Bugs
    (thanks to greenskeleton).
  + Fixed rc.nag documentation (thanks to Jeroen Budts).
  + Fixed bug where task edit incorrectly claimed duration UDA was modified.
-
------- old releases ------------------------------
 
 2.2.0 (2013-04-07) 05f7948f7e70d7be3642bdc336faace52eaa9dfb
 
@@ -802,8 +804,6 @@ Bugs
    (thanks to Bryce Harrington).
  + Fixed bug #671, removing the claim in the 'edit' command claims that
    description text can wrap over multiple lines, because it cannot.
-
------- old releases ------------------------------
 
 1.9.3 (11/08/2010) bf36b47593a33e6347425d47a36477b627310e65
  + Added feature #43, now task supports relative dates like '3wks',
