@@ -1,44 +1,19 @@
 
-New Features in taskwarrior 2.3.0
+New Features in taskwarrior 2.3.1
 
-  - New Taskserver sync capabilities.
-  - New shell (tasksh) with Readline support replaces old 'task shell' command.
-  - The 'dateformat' settings now default to the ISO-8601 standard of 'Y-M-D'.
-  - Italian translation.
-  - French translation has begun.
-  - UDA fields now allow default values.
-  - Now requires libuuid.
-  - New virtual tags: WEEK, MONTH, YEAR, PARENT.
-  - New 'remaining' format for date columns.
-  - New '_get' DOM accessor helper command.
-  - New task-sync(5) man page.
+  - 
 
-New commands in taskwarrior 2.3.0
+New commands in taskwarrior 2.3.1
 
-  - New 'sync' command to synchronize data with a Taskserver.
-  - New 'tasksh' command which replaces the old 'task shell' with an improved
-    standalone shell, featuring Readline support.
+  - 
 
-New configuration options in taskwarrior 2.3.0
+New configuration options in taskwarrior 2.3.1
 
-  - 'taskd.server' specifies host:port of the Taskserver.
-  - 'taskd.credentials' specifies user credentials for the Taskserver.
-  - 'taskd.certificate' specifies the Taskserver certificate for authentication.
-  - 'taskd.key' specifies the Taskserver key for encryption.
-  - 'taskd.ca' specifies the Taskserver CA.
-  - 'taskd.trust' overrides certificate checking.
-  - 'taskd.ciphers' overrides default cipher selection.
-  - 'debug.tls' shows TLS log information, for debugging.
-  - The configuration file supports JSON encoding of unicode characters \uNNNN.
+  - 
 
-Newly deprecated features in taskwarrior 2.3.0
-  
-  - File format 2 (used in version 0.9.3 - 1.5.0) is no longer supported.
-  - The 'push', 'pull' and 'merge' commands will be removed in version 2.4.0
-    The new 'sync' command, in conjunction with the Taskserver is the new sync
-    mechanism.
-  - The 'diagnostics' command no longer generates 1000 UUIDs as a uniqueness
-    test, because libuuid is now mandatory.
+Newly deprecated features in taskwarrior 2.3.1
+
+  - 
 
 Known Issues
 
