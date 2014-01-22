@@ -2,6 +2,7 @@
 2.3.1 ()
 
 Bugs
+ + #1473 Make TASK_RCDIR customizable (thanks to Elias Probst).
  + #1486 Truncated sentence in task-sync(5) manpage (thanks to Jakub Wilk).
  + #1487 `tasksh` segmentation fault (thanks to Hector Arciga).
  + Removed debugging code.
