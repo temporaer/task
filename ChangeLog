@@ -1,5 +1,6 @@
 
-2.3.1 ()
+Features
+ + #TW-261 Easy to create "not deletable" task (thanks to Jan Kunder).
 
 Bugs
  + #1511 sync init crashes if client certification file is empty or invalid
