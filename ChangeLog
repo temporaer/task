@@ -5,8 +5,9 @@ Features
  + TW-1274 Map 'modification' attribute to 'modified' (thanks to jck).
 
 Bugs
-- TD-42 Cannot compile taskd - GNUTLS_VERSION undefined in diag.cpp (thanks
-        to Michele Vetturi).
+ + TD-42 Cannot compile taskd - GNUTLS_VERSION undefined in diag.cpp (thanks
+         to Michele Vetturi).
+ + TW-1282 incorrect URLs in man task-sync (thanks to Jeremiah Marks).
  + #1511 sync init crashes if client certification file is empty or invalid
          (thanks to Marton Suranyi).
  + #1473 Make TASK_RCDIR customizable (thanks to Elias Probst).
