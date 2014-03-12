@@ -9,6 +9,7 @@ Bugs
          to Michele Vetturi).
  + TD-45 Fix preprocessor define (thanks to Jochen Sprickerhof).
  + TW-1282 incorrect URLs in man task-sync (thanks to Jeremiah Marks).
+ + TW-1288 Added missing locking for task modifications (thanks to Kosta H,
  + #1511 sync init crashes if client certification file is empty or invalid
          (thanks to Marton Suranyi).
  + #1473 Make TASK_RCDIR customizable (thanks to Elias Probst).
