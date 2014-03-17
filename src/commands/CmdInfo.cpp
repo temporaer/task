@@ -311,7 +311,7 @@ int CmdInfo::execute (std::string& output)
       view.set (row, 0, STRING_CMD_INFO_MODIFIED);
 
       Date mod (task->get_date ("modified"));
-      std::string age = OldDuration (now - mod).format ();
+      std::string age = Duration (now - mod).format ();
       view.set (row, 1, mod.toString (dateformat) + " (" + age + ")");
     }
 
