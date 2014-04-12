@@ -1,13 +1,10 @@
 
-Features
- + TW-261 Easy to create "not deletable" task (thanks to Jan Kunder).
- + TW-278 Cygwin throws warnings building mk_wcwidth() in wcwidth6.c.
- + TW-1274 Map 'modification' attribute to 'modified' (thanks to jck).
-
-Bugs
  + TD-42 Cannot compile taskd - GNUTLS_VERSION undefined in diag.cpp (thanks
          to Michele Vetturi).
  + TD-45 Fix preprocessor define (thanks to Jochen Sprickerhof).
+ + TW-261 Easy to create "not deletable" task (thanks to Jan Kunder).
+ + TW-278 Cygwin throws warnings building mk_wcwidth() in wcwidth6.c.
+ + TW-1274 Map 'modification' attribute to 'modified' (thanks to jck).
  + TW-1282 incorrect URLs in man task-sync (thanks to Jeremiah Marks).
  + TW-1288 Added missing locking for task modifications (thanks to Kosta H,
  + #1511 sync init crashes if client certification file is empty or invalid
