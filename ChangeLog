@@ -1,4 +1,3 @@
-
 2.3.1 () -
 
  + TD-42 Cannot compile taskd - GNUTLS_VERSION undefined in diag.cpp (thanks
@@ -9,6 +8,7 @@
  + TW-1274 Map 'modification' attribute to 'modified' (thanks to jck).
  + TW-1282 incorrect URLs in man task-sync (thanks to Jeremiah Marks).
  + TW-1288 Added missing locking for task modifications (thanks to Kosta H,
+ + TW-1321 Unit test view.t fails oddly on Ubuntu 13.10 (thanks to John West).
  + #1511 sync init crashes if client certification file is empty or invalid
          (thanks to Marton Suranyi).
  + #1473 Make TASK_RCDIR customizable (thanks to Elias Probst).
