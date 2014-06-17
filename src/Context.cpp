@@ -82,6 +82,7 @@ int Context::initialize (int argc, const char** argv)
   try
   {
     // char** argv --> std::vector <std::string> Context::a3.
+    program = (argc ? argv[0] : "task");
     a3.capture (argc, argv);
 
     // echo one two -- three | task zero --> task zero one two
