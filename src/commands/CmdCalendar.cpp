@@ -175,7 +175,7 @@ int CmdCalendar::execute (std::string& output)
     std::vector <Task>::iterator task;
     for (task = tasks.begin (); task != tasks.end (); ++task)
     {
-      if (task->getStatus () == Task::pending)
+      if (task->getStatus () == Task::pending || task->getStatus () == Task::waiting)
       {
         if (task->has ("due") &&
             !task->hasTag ("nocal"))
@@ -558,7 +558,7 @@ std::string CmdCalendar::renderMonths (
           std::vector <Task>::iterator task;
           for (task = all.begin (); task != all.end (); ++task)
           {
-            if (task->getStatus () == Task::pending &&
+            if ((task->getStatus () == Task::pending || task->getStatus () == Task::waiting) &&
                 !task->hasTag ("nocal")             &&
                 task->has ("due"))
             {
